@@ -36,13 +36,13 @@ function love.draw()
    RenderPauseScreen() -- Love2D only allows graphics calls in the draw function, outside it won't work apparently
 end
 
-function love.focus(f)
+--[[function love.focus(f)
   if not f then
       GamePaused = true
   else
       GamePaused = false
   end
-end
+end]]--
 
 function HandleInput(key)
    if key == "escape" then
