@@ -1,0 +1,5 @@
+# Ignore vscode
+.vscode
+
+# Ignore lovedef folder for lua extension in vscode
+lovedef
