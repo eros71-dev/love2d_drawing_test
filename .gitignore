@@ -3,3 +3,6 @@
 
 # Ignore lovedef folder for lua extension in vscode
 lovedef
+
+# Ignore prepackaged .love file
+*.love
